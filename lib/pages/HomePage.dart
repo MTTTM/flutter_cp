@@ -21,9 +21,18 @@ class Page extends State<HomePage> {
 
   Widget layout(BuildContext context) {
     return new Scaffold(
-      appBar: new AppBar(
-          title: const Text('首页1'),
-       ),
+      appBar: AppBar(
+        title: Text("LAJI"),
+        actions: <Widget>[
+          new IconButton(
+            tooltip: 'goBack home',
+            onPressed: null,
+            icon: Icon(
+              Icons.favorite,
+            ),
+          ),
+        ],
+      ),
       body: new ListView(
         children: <Widget>[
           new Container(

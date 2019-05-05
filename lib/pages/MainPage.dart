@@ -3,21 +3,12 @@ import 'package:caipiao/pages/FindPage.dart';
 import 'package:caipiao/pages/HomePage.dart';
 import 'package:caipiao/pages/MinePage.dart';
  
-class MainPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new MaterialApp(
-        debugShowCheckedModeBanner: false, home: new MainPageWidget());
-  }
-}
- 
+
 class MainPageWidget extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() {
-    return new MainPageState();
-  }
+  MainPageState createState() => MainPageState();
 }
- 
+
 class MainPageState extends State<MainPageWidget> {
   int _tabIndex = 0;
   var tabImages;
