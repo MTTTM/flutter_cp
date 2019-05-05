@@ -91,5 +91,6 @@ flutter:
     - images/pages/home/discounts.png
     - images/pages/home/drawings.png
     - images/pages/home/service.png
-
+    - images/pages/home/notice.png
+    - images/components/logo/logo.png
   
